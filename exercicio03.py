@@ -5,7 +5,7 @@
 
 umidade = int(input("digite a umidade total."))
 
-if umidade < 70:
+if umidade < 110:
     print("a temperatura esta boa.")
 else:
     print("ALERTA TEMPERATURA ULTRAPASSOU O LIMITE.")

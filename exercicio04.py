@@ -3,11 +3,11 @@
 # lenta (<5 km/h), moderada (5 a 10 km/h) ou rápida (>10 km/h).
 distancia = float(input("Digite a distancia"))
 tempo = float(input("digite o tempo"))
-v_medida = distancia / tempo 
+v_media = distancia / tempo 
 
 if v_media < 5:
     print("lento")
-else v_media >= 5 <=10:
+elif v_media >= 5 <=10:
     print("moderado")
-else:
+elif v_medida >=10 <=15:
     print("rapido")

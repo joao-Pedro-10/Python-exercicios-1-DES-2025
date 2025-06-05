@@ -8,8 +8,15 @@ media1 = float(input("digite a primeira medida: "))
 media2 = float(input("digite a segunda medida: "))
 media3 = float(input("digite a terceira medida: "))
 
-soma = media1 + media2 + media3 
+media = (meta1 + meta2 + meta3) / 3
 
-media = soma / 3
-if =
+print(f"media: {media:.2}")
+
+if media >= 7:
+    print("aprovado")
+elif media >= 5:
+    print("em treinamento")
+else:
+    print("reprovado")
+
 
