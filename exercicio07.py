@@ -4,11 +4,11 @@
 # Aprovado (>=7)
 # Em treinamento (>=5 e <7)
 # Reprovado (<5)
-media1 = float(input("digite a primeira medida: "))
-media2 = float(input("digite a segunda medida: "))
-media3 = float(input("digite a terceira medida: "))
+media1 = float(input("digite a primeira media: "))
+media2 = float(input("digite a segunda media: "))
+media3 = float(input("digite a terceira media: "))
 
-media = (meta1 + meta2 + meta3) / 3
+media = media1 or media2 or media3 
 
 print(f"media: {media:.2}")
 
